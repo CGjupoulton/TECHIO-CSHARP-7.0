@@ -1,0 +1,16 @@
+title : What's new in C# 7.0
+
+plan:
+  - title: Introduction
+    statement: markdowns/welcome.md
+  - title: Sandbox
+    statement: markdowns/sand.md
+projects:
+  csharp:
+    root: "/Projects/csharp-project"
+    buildCommand: chmod +x build.sh && ./build.sh
+    runner: microsoft/dotnet:2-sdk
+  csharp-test:
+    root: "/Projects/csharp-test"
+    buildCommand: chmod +x build.sh && ./build.sh
+    runner: microsoft/dotnet:2-sdk
